@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete Website Design Using HTML and CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <section id="header">
+         <div class="container">
+                  <img src="images/logo.png" class="logo">
+                  <div class="header-text">
+                      <h1>Welcome to Our Website</h1>
+                      <span class="square"></span>
+                      <p>ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <button class="common-btn">Read More</button>
+                      <div class="line">
+                        <span class="line-1"></span><br>
+                        <span class="line-2"></span><br>   
+                        <span class="line-3"></span>
+                      </div>
+                  </div>
+         </div>
+   </section>
+
+   <!-- navigation section -->
+    <nav id="sideNav">
+        <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About US</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#">Offers</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <img src="images/menu.png" id="menuBtn" onclick="togglemenu()">
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sideNav");
+
+        sideNav.style.right = "-250px";
+        menuBtn.onclick = function() {
+            if(sideNav.style.right == "-250px") {
+                sideNav.style.right = "0";
+            } else {
+                sideNav.style.right = "-250px";
+            }
+        }
+       
+    </script>
+       
+</body>
+</html>
+
+
+
