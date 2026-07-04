@@ -106,7 +106,7 @@ nav ul li a{
 }
 
 /* -------------About sectio css ------------------- */
-#about{
+#about, #offer{
    padding:100px 0;
    display: flex;
    align-items: center;
@@ -207,4 +207,77 @@ nav ul li a{
 
 .course-text button{
     margin:30px  0;
+}
+
+/* offer section */
+#offer button{
+    margin-top: 30px 0
+   
+ }
+  #offer .line{
+    margin-top: 30px;
+    }
+
+    /* contact style */
+.contact-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+   
+ 
+}
+.contact-left-col,.contact-right-col{
+    flex-basis:50%;
+    min-width: 0;
+}
+
+.contact-right-col img{
+    width: 100%;
+  
+}
+form{
+    max-width: 350px;
+    margin: 30px 0;
+}
+form input{
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom:5px;
+    outline:none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border: 2px solid #f67c92;
+}
+.btn-box{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+}
+.btn-box button{
+    flex-basis:48%;
+    padding:18px 0;
+}
+
+/* footer style */
+#footer{
+    padding: 50px 0 30px;
+    
+}
+hr{
+    width:100%;
+    border: 0;
+    border-top:#f67c92 2px solid;
+}
+.footer-row{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left-col{
+    flex-basis:50%
+}
+.footer-right-col{
+    flex-basis:50%;
 }
