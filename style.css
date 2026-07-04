@@ -20,7 +20,7 @@
 }
 .header-text{
     max-width: 350px;
-    margin-top:50px;
+    margin-top:140px;
 }
 h1{
     font-size: 50px;  
@@ -333,4 +333,67 @@ hr{
     width:20px;
     margin: 0 auto 20px;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 770px){
+  
+    #header{
+        /* no background image for small screens */
+        background-image:none; 
+    }
+
+    .container{
+
+        /* container size is halved for small screen from 100 to 50 */
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .logo{
+        /* the width of logo reduced from 100 to 70px */
+        width:70px;
+        /* margin top reduced form 30 to 27 for small screen */
+        margin-top:27px;
+    }
+    .header-text{
+        /* max-width: 350px;   has been removed for small screens */
+        /* margin top reduced from 140px to 100px for small screen */
+        margin-top:100px;
+    }
+    h1{
+        /* font size reduced to 25px for small screens */
+        font-size: 25px;  
+    
+    }
+
+    #menuBtn{
+        /* some elements have been deleted for small screen as commented in this section. width and height also reduced  */
+    width: 40px;
+    /* position: fixed; */
+    right: 70px;
+    /* top: 35px; */
+    /* z-index: 2; */
+    /* cursor: pointer; */
+}
+
+.common-btn{
+    /* padding size reduced for small screens. some other elements have been deleted for small screen */
+    padding: 10px 12px;
+    /* margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #f67c92;
+    background: transparent;
+    outline: none;
+    font-weight:bold; */
+}
+
+.social-icons img{
+    /* cursor and display bloch removed in small screen */
+    /* display:block; */
+    width:14px;
+    margin: 15px auto;
+    /* cursor: pointer; */
+}
+
 }
