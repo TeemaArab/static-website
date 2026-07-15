@@ -396,4 +396,55 @@ hr{
     /* cursor: pointer; */
 }
 
+.about-left-col, .about-right-col{
+    flex-basis:100%;
+}
+.about-text{
+    margin: 50px 50px 0;
+    display: block;
+}
+.about-text h2{
+   
+    font-size: 18px;
+}
+
+
+.feature-col{
+    flex-basis:100%;
+    margin-bottom:20px;
+}
+
+.course-left-col{
+  flex-basis:100%;
+}
+.course-right-col{
+    flex-basis:100%;
+    margin-top:70px;
+}
+
+.contact-left-col,.contact-right-col{
+    flex-basis:100%;
+    min-width: 0;
+}
+.contact-right-col{
+    margin-top: 50px;
+}
+
+.footer-left-col{
+    flex-basis:100%;
+    
+}
+
+.footer-right-col{
+    flex-basis:100%;
+}
+
+.link-title{
+    flex-basis:50%;
+    margin-bottom:30px;
+}
+
+
+
+
 }
